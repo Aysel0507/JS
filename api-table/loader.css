@@ -1,0 +1,55 @@
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid black;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins";
+    }
+    header{
+        height: 80px;
+        position: fixed;
+        width: 100%;
+        background: rgb(97,213,210);
+        display: flex;
+        align-items: center;
+        z-index: 999;
+    }
+    .logo{
+        color: white;
+        font-size: 22px;
+    }
+    ul{
+        list-style: none;
+    }
+    ul li{
+        display: inline-block;
+        margin-right: 15px;
+    }
+    ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    main{
+        padding-top: 150px;
+    }
