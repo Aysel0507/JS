@@ -1,0 +1,41 @@
+sign{
+    font-size: 40px;
+ 
+ }
+ .is-invalid{
+     display: block;
+ }
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ header{
+     z-index:999;
+     position:fixed;
+     top: 0;
+     width: 100%;
+ }
+ main{
+     padding-top: 180px;
+ }
+ nav {
+     background: rgb(62,15,18);
+ background: linear-gradient(90deg, rgba(62,15,18,1) 0%, rgba(108,10,10,1) 38%, rgba(182,61,61,1) 100%);
+     color: white;
+     padding: 40px;
+ 
+ }
+ 
+ ul li{
+     font-size: 20px;
+ }
+ ul li a{
+     color:rgb(252, 248, 248);
+     
+ }
+ 
+ .logoname h2{
+ font-size: 50px;
+ color: white;
+ }
