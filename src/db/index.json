@@ -1,0 +1,29 @@
+{
+    "products":[
+    {
+        "id":1,
+        "name":"milk",
+        "price":10,
+        "isDiscounted":false
+    },
+    {
+        "id":12,
+        "name":"milk",
+        "price":11,
+        "isDiscounted":true
+    },
+    {
+        "id":3,
+        "name":"milk",
+        "price":12,
+        "isDiscounted":false
+    },
+    {
+        "id":4,
+        "name":"milk",
+        "price":14,
+        "isDiscounted":true
+    }
+    
+]
+}
