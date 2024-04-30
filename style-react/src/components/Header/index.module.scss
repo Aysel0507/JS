@@ -1,0 +1,43 @@
+header {
+  #header-top {
+    background-color: #007878;
+    .header-top {
+      display: flex;
+      padding: 20px 10px;
+      justify-content: space-between;
+      align-items: center;
+      a {
+        color: white;
+      }
+    }
+  }
+
+  #header-middle {
+    .header-middle {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  #header-end {
+    .header-end {
+      ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+nav {
+  ul {
+    display: flex;
+    gap: 15px;
+  }
+}
+
+.header-icons {
+  display: flex;
+  gap: 10px;
+}
